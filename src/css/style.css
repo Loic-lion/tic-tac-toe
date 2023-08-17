@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Hind Madurai", sans-serif;
+}
+body .game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 667px;
+  width: 375px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  box-shadow: 0px 5px 11px 0px rgb(122, 122, 122);
+}
+body .game h1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+  width: 375px;
+  background-color: #69ac6f;
+  border-radius: 10px 10px 0px 0px;
+}
+body .game__board {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .game__board__status {
+  font-size: 25px;
+  margin: 25px 0px 25px 35px;
+  align-self: flex-start;
+}
+body .game .board__row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+body .game__board__row__square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+body .game__info {
+  margin-top: 40px;
+  width: 300px;
+  height: 200px;
+}
+body .game__info ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 150px;
+}
+body .game__info ol li {
+  margin-bottom: 5px;
+}
+body .game__info ol li button {
+  width: 120px;
+  height: 21px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #69ac6f;
+  border-radius: 2px;
+}
+body .game__info ol li button:hover {
+  background-color: #2fa538;
+}/*# sourceMappingURL=style.css.map */
